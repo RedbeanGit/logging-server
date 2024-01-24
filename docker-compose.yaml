@@ -12,8 +12,6 @@ services:
     image: docker.elastic.co/kibana/kibana:7.9.3
     depends_on:
       - elasticsearch
-    environment:
-      - ELASTICSEARCH_URL=http://elasticsearch:9200
     volumes:
       - ./kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
 
