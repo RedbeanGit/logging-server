@@ -1,1 +1,2 @@
 server.basePath: "/kibana"
+server.rewriteBasePath: true
